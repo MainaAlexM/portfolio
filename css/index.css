@@ -1,5 +1,30 @@
 body{
     background-color: aliceblue;
+    display: grid;
+    grid-template-rows: max-content;
+}
+.navig-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 10rem;
+    height: 4rem;
+    background-color: aqua;
+}
+.material-icons-outlined{
+    color: blue;
+}
+.navig-bar ul li{
+    list-style-type: none;
+    margin: 0.5rem 2rem;
+}
+.navig-bar ul li a{
+    text-decoration: none;
+}
+.navig-bar ul{
+    display:flex;
+    
 }
 .intro{
     height: 30rem;
