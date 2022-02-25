@@ -1,7 +1,14 @@
 body{
-    background-color: aliceblue;
-    display: grid;
-    grid-template-rows: max-content;
+    /* background-color: aliceblue; */
+    /* display: grid;
+    grid-template-rows: max-content; */
+}
+body h1{
+    margin: 0.2rem auto;
+}
+hr{
+    border: thin solid rgb(112, 112, 138);
+    width: 100%;
 }
 .navig-bar{
     display: flex;
@@ -9,7 +16,7 @@ body{
 }
 .logo{
     width: 10rem;
-    height: 4rem;
+    height: 5rem;
     background-color: aqua;
 }
 .material-icons-outlined{
@@ -26,10 +33,12 @@ body{
     display:flex;
     
 }
-.intro{
-    height: 30rem;
-    width: 0 auto;
+.section1{
     background-color: rgba(125, 126, 126, 15%);
+    height: 30rem;
+}
+.intro{
+    width: 0 auto;
     justify-content:space-around;
     display: flex;
     padding: 1rem;
@@ -47,4 +56,15 @@ body{
     height: 15rem;
     border-radius:8rem;
     /* float: right; */
+}
+.about{
+    /* justify-content: space-between; */
+    margin: 0 auto;
+    text-align: center;
+    align-content: left;
+    width: 30rem;
+}
+.about p{
+    font-size: larger;
+    /* color: blue; */
 }
