@@ -12,6 +12,7 @@ hr{
 }
 .navig-bar{
     display: flex;
+    flex-wrap:wrap-reverse;
     justify-content: space-around;
 }
 .logo{
