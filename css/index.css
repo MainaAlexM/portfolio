@@ -48,11 +48,10 @@ hr{
     background-color: antiquewhite;
     display: inline;
     /* float: left; */
-    margin: 2rem auto;
+    margin: 2rem 4rem;
     width: 20rem;
-    /* height: fit-content; */
-    text-align: left;
-    font-size:larger;
+    height: fit-content;
+    text-align: center;
 }
 .icon img{
     height: 15rem;
@@ -69,18 +68,4 @@ hr{
 .about p{
     font-size: larger;
     /* color: blue; */
-}
-.section2{
-    display:grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 2rem;
-}
-.quality{
-    border: thin solid rgb(112, 112, 138);
-    padding: 0 2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-    font-style: italic;
-    /* margin: 1rem 0.4rem; */
-    /* width: 5rem; */
 }
