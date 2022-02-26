@@ -2,6 +2,7 @@ body{
     /* background-color: aliceblue; */
     /* display: grid;
     grid-template-rows: max-content; */
+    margin: none;
 }
 body h1{
     margin: 0.2rem auto;
@@ -29,14 +30,19 @@ hr{
 }
 .navig-bar ul li a{
     text-decoration: none;
+    color:white;
 }
 .navig-bar ul{
     display:flex;
     
 }
 .section1{
-    background-color: rgba(125, 126, 126, 15%);
-    height: 30rem;
+    background-color: rgba(74, 99, 99, 0.336);
+    height: 100vh;
+    /* background-image: url("../images/coding.jpg"); */
+    background-size: 100%;
+    /* color:white; */
+    padding-left: 2rem;
 }
 .intro{
     width: 0 auto;
@@ -45,13 +51,14 @@ hr{
     padding: 1rem;
 }
 .info{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: inline;
     /* float: left; */
-    margin: 2rem 4rem;
+    margin: 2rem auto;
     width: 20rem;
-    height: fit-content;
-    text-align: center;
+    /* height: fit-content; */
+    text-align: left;
+    font-size:larger;
 }
 .icon img{
     height: 15rem;
@@ -68,4 +75,47 @@ hr{
 .about p{
     font-size: larger;
     /* color: blue; */
+}
+.section2{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2rem;
+    margin: 2rem auto;
+}
+.quality{
+    border: thin solid rgb(112, 112, 138);
+    padding: 0 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    /* margin: 1rem 0.4rem; */
+    /* width: 5rem; */
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section3 p, h4{
+    display: inline-block;
+}
+.section3 img{
+    height: 10rem;
+    /* float: left; */
+}
+.project1{
+    display: flex;
+    flex-direction: column;
+}
+.proj{
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: auto auto; */
+    width: 40%;
+}
+.proj img, p{
+    padding: 1rem;
+}
+.proj p{
+
 }
