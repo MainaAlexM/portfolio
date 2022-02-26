@@ -27,9 +27,6 @@ hr{
     text-decoration: none;
     color: rgb(26, 26, 179);
 }
-/* .material-icons-outlined{
-    color: blue;
-} */
 .navig-bar ul li{
     list-style-type: none;
     margin: 0.5rem 2rem;
@@ -46,9 +43,7 @@ hr{
 .section1{
     background-color: rgba(74, 99, 99, 0.1);
     height: 100vh;
-    /* background-image: url("../images/web.jpg"); */
     background-size: 100%;
-    /* color:white; */
     padding-left: 2rem;
 }
 .intro{
@@ -58,30 +53,24 @@ hr{
     padding: 1rem;
 }
 .info{
-    /* background-color: antiquewhite; */
     display: inline;
-    /* float: left; */
     margin: 2rem auto;
     width: 20rem;
-    /* height: fit-content; */
     text-align: left;
-    font-size:larger;
+    font-size: x-large;
 }
 .icon img{
-    height: 15rem;
+    height: 25rem;
     border-radius:8rem;
-    /* float: right; */
 }
 .clause{
-    /* justify-content: space-between; */
     margin: 0 auto;
     text-align: center;
     align-content: left;
     width: 30rem;
 }
 .clause p{
-    font-size: larger;
-    /* color: blue; */
+    font-size: x-large;
 }
 .values{
     background-image: url("../images/proj.jpg");
@@ -117,8 +106,6 @@ hr{
     font-style: italic;
     background-color: rgb(159, 230, 230);
     height: 15rem;
-    /* margin: 1rem 0.4rem; */
-    /* width: 5rem; */
 }
 .quality h3{
     text-align: center;
@@ -156,11 +143,15 @@ hr{
     display: flex;
     flex-direction: column;
     background-color: rgb(223, 241, 234);
-    /* flex-wrap: wrap; */
 }
 .section3 h2{
     text-align: center;
     font-size: xx-large;
+}
+.section3 hr{
+    border: thick solid grey;
+    width: 20%;
+    margin: 0rem auto 1rem;
 }
 .sub{
     display: flex;
@@ -175,7 +166,6 @@ hr{
 }
 .section3 img{
     height: 12rem;
-    /* float: left; */
 }
 .section3 a{
     text-decoration: none;
@@ -189,10 +179,7 @@ hr{
     display: flex;
     padding: 0.2rem 0.4rem;
     font-size: larger;
-    /* flex-direction: column; */
-    /* grid-template-columns: auto auto; */
     width: fit-content;
-    /* justify-content: space-between; */
     border: none;
     border-radius: 2rem;
     height: 15rem;
