@@ -5,7 +5,7 @@ body h1{
     margin: 0.2rem auto;
 }
 hr{
-    border: thin solid rgb(112, 112, 138);
+    border: 0.1px solid rgb(161, 161, 207,);
     width: 100%;
 }
 .navig-bar{
@@ -19,25 +19,26 @@ hr{
 }
 .logo a{
     text-decoration: none;
-    color: rgb(53, 53, 131);
+    color: rgb(26, 26, 179);
 }
-.material-icons-outlined{
+/* .material-icons-outlined{
     color: blue;
-}
+} */
 .navig-bar ul li{
     list-style-type: none;
     margin: 0.5rem 2rem;
 }
 .navig-bar ul li a{
     text-decoration: none;
-    color:rgb(53, 53, 131);
+    color:rgb(26, 26, 179);
+    font-size: larger;
 }
 .navig-bar ul{
     display:flex;
     
 }
 .section1{
-    background-color: rgba(74, 99, 99, 0.336);
+    background-color: rgba(74, 99, 99, 0.1);
     height: 100vh;
     /* background-image: url("../images/web.jpg"); */
     background-size: 100%;
@@ -65,45 +66,72 @@ hr{
     border-radius:8rem;
     /* float: right; */
 }
-.about{
+.clause{
     /* justify-content: space-between; */
     margin: 0 auto;
     text-align: center;
     align-content: left;
     width: 30rem;
 }
-.about p{
+.clause p{
     font-size: larger;
     /* color: blue; */
+}
+.values{
+    background-image: url("../images/proj.jpg");
+    background-size: 50%;
+    height: 50vh;
 }
 .section2{
     display:grid;
     grid-template-columns: auto auto auto;
     column-gap: 2rem;
     margin: 2rem 2rem;
-
 }
 .values h2{
     text-align: center;
+    font-size: xx-large;
+    color: rgb(53, 53, 131);
+    background-color: aquamarine;
+    margin: 0 auto;
+    width: max-content;
+    padding: 0rem 0.4rem;
+    border-radius: 0.2rem;
 }
+
 .quality{
     border: thin solid rgb(112, 112, 138);
     border-top-left-radius: 4rem;
     border-bottom-left-radius: 5rem;
     border-bottom-right-radius: 5rem;
+    border-top-right-radius: 0.6rem;
     padding: 0 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: larger;
     font-style: italic;
     background-color: rgb(159, 230, 230);
+    height: 15rem;
     /* margin: 1rem 0.4rem; */
     /* width: 5rem; */
 }
+.quality h3{
+    text-align: center;
+    margin: 1rem auto;
+}
+.quality p{
+    margin: 0.1rem auto;
+}
+
+
 .section3{
     display: flex;
     flex-direction: column;
     background-color: rgb(223, 241, 234);
     /* flex-wrap: wrap; */
+}
+.section3 h2{
+    text-align: center;
+    font-size: xx-large;
 }
 .sub{
     display: flex;
@@ -112,8 +140,12 @@ hr{
 .section3 p, h4{
     display: inline-block;
 }
+.section3 h4{
+    font-size: larger;
+    text-align: center;
+}
 .section3 img{
-    height: 10rem;
+    height: 12rem;
     /* float: left; */
 }
 .section3 a{
@@ -126,13 +158,15 @@ hr{
 }
 .proj{
     display: flex;
-    flex-direction: column;
+    padding: 0.2rem 0.4rem;
+    font-size: larger;
+    /* flex-direction: column; */
     /* grid-template-columns: auto auto; */
-    width: 20rem;
+    width: fit-content;
     /* justify-content: space-between; */
-    border: solid thin grey;
+    border: none;
     border-radius: 2rem;
-    height: 25rem;
+    height: 15rem;
     background-color: rgba(87, 240, 240, 0.33);
 }
 .project{
@@ -140,9 +174,6 @@ hr{
 }
 .proj img, p{
     padding: 1rem;
-}
-.proj p{
-
 }
 .contact{
     height: 40vh;
