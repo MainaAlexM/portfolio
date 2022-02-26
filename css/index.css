@@ -80,21 +80,34 @@ hr{
     display:grid;
     grid-template-columns: auto auto auto;
     column-gap: 2rem;
-    margin: 2rem auto;
+    margin: 2rem 2rem;
+
+}
+.values h2{
+    text-align: center;
 }
 .quality{
     border: thin solid rgb(112, 112, 138);
+    border-top-left-radius: 4rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
     padding: 0 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     font-style: italic;
+    background-color: rgb(159, 230, 230);
     /* margin: 1rem 0.4rem; */
     /* width: 5rem; */
 }
 .section3{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.sub{
+    display: flex;
+    margin: 0 auto;
+
 }
 .section3 p, h4{
     display: inline-block;
@@ -109,13 +122,46 @@ hr{
 }
 .proj{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* grid-template-columns: auto auto; */
-    width: 40%;
+    width: 20rem;
+    /* justify-content: space-between; */
+    border: solid thin grey;
+    border-radius: 2rem;
+    height: 25rem;
+    background-color: rgba(87, 240, 240, 0.33);
+}
+.project{
+    margin: 1rem 2rem;
 }
 .proj img, p{
     padding: 1rem;
 }
 .proj p{
 
+}
+.contact{
+    height: 40vh;
+    background-color: rgba(74, 99, 99, 0.336)
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 0 auto;
+    padding: 2rem;
+    
+}
+input{
+    margin: 0.5rem 0rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:darkgrey;
+    height: 2rem;
+    padding-top: 0.5rem;
+}
+.send{
+    margin: 0 auto;
 }
